@@ -39,5 +39,6 @@ int main(int argc, char*argv[])
     cout << argv[1] << endl;
     string nazwa_pliku = argv[1];
     vector <Probka> dane = wczytaj(nazwa_pliku);
+    cin.get();
     return 0;
 }
