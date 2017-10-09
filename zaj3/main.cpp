@@ -30,6 +30,10 @@ vector <Probka> wczytaj(string nazwa)
     return tab;
 }
 
+zapis(vector <Probka>, string nazwa_pliku)
+{
+    ofstream plik(out.csv)
+}
 int main(int argc, char*argv[])
 {
     if(argc!=2)
